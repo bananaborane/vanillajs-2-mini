@@ -35,6 +35,7 @@ ul {
   width: 100%;
 }
 
+/* this li selector only applics to if the aria-checked is true in the specific li element */
 li[aria-checked="true"] {
   color: gray;
   text-decoration: line-through;
